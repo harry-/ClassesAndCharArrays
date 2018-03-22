@@ -8,6 +8,7 @@ protected:
 public:
 	Base();
 	virtual ~Base();
+	virtual Base* clone() const = 0;
 	Base(const char * charArray);
 	Base(const Base & original);
 	Base & operator=(const Base & original);

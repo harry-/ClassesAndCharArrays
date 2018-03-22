@@ -70,5 +70,5 @@ char * Derived::get_charArray2()
 void Derived::display()
 {
 	Base::display();
-	std::cout << charArray2_ << charArray_;
+	std::cout << ' ' << charArray2_;
 }
